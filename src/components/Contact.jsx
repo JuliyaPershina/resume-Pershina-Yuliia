@@ -32,47 +32,47 @@ export default function Contact() {
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-2xl text-indigo-500" />
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:Jpershina79@gmail.com"
                 className="text-lg text-gray-700 dark:text-gray-300 hover:text-indigo-500 transition"
               >
-                your.email@example.com
+                Jpershina79@gmail.com
               </a>
             </div>
             <div className="flex items-center space-x-4">
               <FaPhoneAlt className="text-2xl text-green-500" />
               <a
-                href="tel:+380123456789"
+                href="tel:+380503611087"
                 className="text-lg text-gray-700 dark:text-gray-300 hover:text-green-500 transition"
               >
-                +38 (012) 345-67-89
+                +38 (050) 361-10-87 (Viber, WhatsApp)
               </a>
             </div>
             <div className="flex items-center space-x-4">
               <FaGithub className="text-2xl text-gray-800 dark:text-gray-200" />
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/JuliyaPershina"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg text-gray-700 dark:text-gray-300 hover:text-indigo-500 transition"
               >
-                github.com/yourusername
+                https://github.com/JuliyaPershina
               </a>
             </div>
             <div className="flex items-center space-x-4">
               <FaLinkedin className="text-2xl text-blue-600" />
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/juliya-pershina-021341281/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg text-gray-700 dark:text-gray-300 hover:text-indigo-500 transition"
               >
-                linkedin.com/in/yourusername
+                linkedin.com/in/juliya-pershina
               </a>
             </div>
           </motion.div>
 
           {/* Форма зворотного зв'язку */}
-          <motion.form
+          {/* <motion.form
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
@@ -118,7 +118,7 @@ export default function Contact() {
             >
               Відправити
             </button>
-          </motion.form>
+          </motion.form> */}
         </div>
       </div>
     </section>

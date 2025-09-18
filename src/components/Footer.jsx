@@ -7,13 +7,13 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
         {/* Ліцензія або ім’я */}
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Юлія Першина. Всі права захищені.
+          &copy; {new Date().getFullYear()} Юлія Першина.
         </p>
 
         {/* Соціальні іконки */}
         <div className="flex space-x-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/JuliyaPershina"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition-colors duration-300"
@@ -21,7 +21,7 @@ export default function Footer() {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/juliya-pershina-021341281/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 transition-colors duration-300"
@@ -29,8 +29,8 @@ export default function Footer() {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="mailto:your.email@example.com"
-            className="hover:text-green-500 transition-colors duration-300"
+            href="mailto:Jpershina79@gmail.com"
+            className="hover:text-blue-500 transition-colors duration-300"
           >
             <FaEnvelope size={20} />
           </a>
